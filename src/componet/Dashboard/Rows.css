@@ -1,0 +1,23 @@
+.row {
+  margin-left: 20px;
+}
+
+.row_posters {
+  display: flex;
+  overflow-x: scroll;
+  padding: 20px 0;
+}
+
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row_poster {
+  width: 150px;
+  margin-right: 10px;
+  transition: transform 0.3s;
+}
+
+.row_poster:hover {
+  transform: scale(1.1);
+}
